@@ -1,7 +1,7 @@
 # fatec-projeto-integrador-II-music-2021
 # On8-projeto-1-m-de-maravilhosa
 
-FATEC |Sistemas para Internet | 2021 | 2° Semetre| Projeto II - Music
+FATEC | Sistemas para Internet | 2021 | 2° Semetre| Projeto II - Music
 
 ## Sobre o Projeto
 O projeto projeto integrador é um trabalho em grupo.
