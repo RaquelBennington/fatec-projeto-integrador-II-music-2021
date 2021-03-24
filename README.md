@@ -4,7 +4,7 @@
 FATEC | Sistemas para Internet | 2021 | 2° Semetre| Projeto II - Music
 
 ## Sobre o Projeto
-O projeto projeto integrador é um trabalho em grupo.
+O projeto integrador é um trabalho em grupo.
 
 ## Protótipo figma
 Layout [link](https://www.figma.com)
@@ -14,7 +14,7 @@ Layout [link](https://www.figma.com)
 ## Orientações
 
 
-**1.** Entrar no repositório e fazer o fork do repositório do projeto M de Maravilhosa
+**1.** Entrar no repositório e fazer o fork do repositório do projeto integrador II
 
    Link: [Repositório](https://github.com/RaquelBennington/fatec-projeto-integrador-II-music-2021.git)
 
