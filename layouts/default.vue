@@ -1,62 +1,59 @@
 <template>
   <div>
+    <nav>
+      <img src="../assets/logo.png" alt="logo">
+      <ul>
+        <li><nuxt-link to="/">Inicio</nuxt-link></li>
+          <li><nuxt-link to="/destaques">Destaques</nuxt-link></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+       <h1>Vá de <strong>5G</strong>. E seja feliz</h1>
+    </section>
+
     <Nuxt />
   </div>
 </template>
 
 <style>
-html {
-  font-family:
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  font-size: 16px;
-  word-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
+body {
+  font-family: sans-serif;
 }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    height: 80px;
+    width: 100%;
+  }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-}
+  nav img{
+   margin: 0 15px;
+   padding: 10px;
 
-.button--green {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
-  text-decoration: none;
-  padding: 10px 30px;
-}
+  }
 
-.button--green:hover {
-  color: #fff;
-  background-color: #3b8070;
-}
+  nav ul{
+    align-items: center;
+    margin-right: 20px;
+   
+  }
 
-.button--grey {
-  display: inline-block;
-  border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
-  text-decoration: none;
-  padding: 10px 30px;
-  margin-left: 15px;
-}
+  nav ul li{
+    display: inline-block;
+    align-items: center;
+    line-height: 80px;
+    margin: 0 15px;
+    color: white;
+  }
 
-.button--grey:hover {
-  color: #fff;
-  background-color: #35495e;
-}
+  .hero{
+    width: 100%;
+    height: 230px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
 </style>
