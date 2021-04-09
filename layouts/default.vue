@@ -7,11 +7,6 @@
           <li><nuxt-link to="/destaques">Destaques</nuxt-link></li>
       </ul>
     </nav>
-
-    <section class="hero">
-       <h1>Vá de <strong>5G</strong>. E seja feliz</h1>
-    </section>
-
     <Nuxt />
   </div>
 </template>
@@ -57,3 +52,6 @@ body {
     font-size: 40px;
   }
 </style>
+<script>
+
+</script>
